@@ -1,10 +1,16 @@
 [package]
 name = "say-hello-jan"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 description = "This just test bro"
 license = "Apache-2.0"
 authors = ["Yogi Dwitama Uchiha"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+hello=[]
+bye=[]
+all=["hello", "bye"]
+default=["helloaja"]
 
 [dependencies]
