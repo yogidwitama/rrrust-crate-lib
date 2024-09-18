@@ -11,6 +11,6 @@ authors = ["Yogi Dwitama Uchiha"]
 hello=[]
 bye=[]
 all=["hello", "bye"]
-default=["helloaja"]
+default=["hello"]
 
 [dependencies]
